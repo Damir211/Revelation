@@ -227,6 +227,7 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 p{
+	width: 100%;
 	font-size: 14px;
 	color: #807d77;
 	text-align: center;
@@ -273,14 +274,15 @@ border-radius: 0 15px 0 0;
 }
 .container__text{
 width: 100%;
-min-height: 120px;
+min-height: 50px;
 display: flex;
 font-size: 18px;
 margin: auto;
 text-align: center;
 color:#222;
 h3{
-	margin:auto 40px;
+	height: 50px;
+	margin:50px 40px;
 	font-weight: normal;
 }
 }
@@ -348,7 +350,8 @@ justify-content: space-between;
 height: 60px;
 border-top: 1px solid #3a3a3a;
 p{
-	margin: auto 20px;
+	height: 15px;
+	margin: 20px 20px;
 	font-size: 12px;
 	color: #807d77;
 }
@@ -398,7 +401,7 @@ div:hover i{
 }
 i{
 	color:#807d77;
-	margin: auto;
+	margin: 28%;
 }
 }
 .post{
@@ -423,7 +426,7 @@ height: 30px;
 border-radius: 10px;
 position: absolute;
 bottom: 10px;
-margin: auto;
+left:43%;
 background-color: blue;
 text-align: center;
 line-height: 2;
@@ -475,7 +478,10 @@ i{
 	margin:0 50px;
 }
 .container__text{
-	min-height: 150px;
+	min-height: 100px;
+	h3{
+		height: 80px;
+	}
 }
 .slider__icon{
 	display: block;
@@ -682,5 +688,8 @@ footer{
 	border-bottom: 2px solid gray;
 	border-top: 2px solid gray;
 	margin-bottom: 10px;
+	}
+	.container__down,.container__up,.block__down,.block__up{
+	left:38%;
 	}
 }
