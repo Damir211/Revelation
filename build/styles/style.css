@@ -130,7 +130,8 @@ nav {
     font-size: 12px; }
   nav h1 {
     font-size: 36px;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    font-weight: normal; }
   nav .logo {
     margin-left: 20px; }
   nav .logo-size {
@@ -302,9 +303,7 @@ nav {
     margin-top: 30px; }
   .container__item hr {
     width: 100%;
-    border: 0;
-    height: 1px;
-    background-color: #d7d7d7; }
+    border: 1 solid #d7d7d7; }
 
 .next, .prev {
   width: 30px;
@@ -348,7 +347,8 @@ nav {
   text-align: center;
   color: #222; }
   .container__text h3 {
-    margin: auto 40px; }
+    margin: auto 40px;
+    font-weight: normal; }
 
 .block {
   margin-left: 20px;
@@ -378,6 +378,8 @@ nav {
   .block__item a {
     font-size: 14px;
     color: #55415f; }
+  .block__item a:hover {
+    text-decoration: underline; }
 
 /*footer*/
 footer {
@@ -403,7 +405,8 @@ footer {
   footer .footer__block {
     width: 225px; }
   footer h3 {
-    color: #fff; }
+    color: #fff;
+    font-weight: normal; }
   footer p {
     margin: 5px 0;
     line-height: 1;
@@ -487,7 +490,8 @@ button {
     margin-bottom: 0; }
   .post span {
     color: #807d77;
-    font-size: 10px; }
+    font-size: 10px;
+    font-weight: bold; }
 
 .block {
   position: relative; }
@@ -512,6 +516,8 @@ button {
 @media only screen and (max-width: 1000px) {
   .wrapper {
     width: 767px; }
+  .copyright p {
+    margin: auto 70px; }
   .slider__item {
     position: relative; }
   .slider__text {
@@ -550,6 +556,8 @@ button {
     margin: auto; } }
 
 @media only screen and (max-width: 767px) {
+  .copyright p {
+    margin: auto 20px; }
   .wrapper {
     width: 600px; }
   .container {
