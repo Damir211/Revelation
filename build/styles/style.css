@@ -273,7 +273,6 @@ nav {
 
 .container__item {
   width: 210px;
-  height: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -385,25 +384,24 @@ nav {
 
 /*footer*/
 footer {
-  background-color: #222; }
-  footer .footer {
-    padding: 0 20px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    border-bottom: 1px solid #000;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    footer .footer a {
-      color: #9f80a9;
-      font-size: 15px;
-      line-height: 1.5; }
+  background-color: #222;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  footer a {
+    color: #9f80a9;
+    font-size: 15px;
+    line-height: 1.5; }
   footer .footer__block {
     width: 225px; }
   footer h3 {
@@ -540,7 +538,7 @@ button {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-  .footer {
+  footer {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
